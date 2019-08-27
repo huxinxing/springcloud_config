@@ -1,7 +1,7 @@
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://192.168.0.191:3306/config_dev
+    url: jdbc:mysql://localhost:3306/config_dev
     username: 'root'
     password: 'xing886372'
     driver-class-name: com.mysql.jdbc.Driver
@@ -12,4 +12,3 @@ spring:
       ddl-auto: none
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-
