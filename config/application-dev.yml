@@ -1,8 +1,15 @@
-from: huxinxingTe
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/config
+    username: 'root'
+    password: 'xing886372'
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
-db.url: jdbc:mysql://localhost:3306/config_dev?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC&allowMultiQueries=true
-db.username: xing886372
-db.maxActive: 100
-db.initialSize: 10
-db.minIdle: 5
-db.under_score_to_camel_case: true
