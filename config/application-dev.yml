@@ -1,0 +1,8 @@
+from: huxinxingTe
+
+db.url: jdbc:mysql://localhost:3306/config_dev?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC&allowMultiQueries=true
+db.username: xing886372
+db.maxActive: 100
+db.initialSize: 10
+db.minIdle: 5
+db.under_score_to_camel_case: true
