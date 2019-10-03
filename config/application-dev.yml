@@ -14,4 +14,4 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
 
-from: huxinxing
+from: huxinxi
